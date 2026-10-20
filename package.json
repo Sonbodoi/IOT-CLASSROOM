@@ -1,0 +1,13 @@
+{
+  "name": "iot-classroom-monitor",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mqtt": "^5.14.1",
+    "socket.io": "^4.8.1"
+  }
+}

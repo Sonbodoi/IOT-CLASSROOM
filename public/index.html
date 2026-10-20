@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hệ thống giám sát lớp học | Giám sát lớp học</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+        <div class="brand">
+          <div class="brand-mark">⌁</div>
+          <div>Giám sát lớp học</div>
+        </div>
+        <div class="side-caption">ĐIỀU HƯỚNG</div>
+        <!-- [HOC-CODE] Menu: các liên kết đổi trang; common.js dùng initNavigation() cho hiệu ứng nền xanh. -->
+        <nav class="nav">
+          <a class="active" aria-current="page" href="index.html"><span>▦</span> Dashboard</a>
+          <a href="sensor-data.html"><span>▤</span> Dữ liệu cảm biến</a>
+          <a href="action-history.html"><span>◷</span> Lịch sử hoạt động</a>
+          <a href="profile.html"><span>♙</span> Hồ sơ cá nhân</a>
+        </nav>
+        <div class="side-foot">
+          <div id="sideStatus" class="online">Đang kiểm tra kết nối...</div><button class="logout" type="button" onclick="logout()">↪ Đăng xuất</button>
+        </div>
+      </aside>
+<main class="main dashboard">
+<header class="page-head"><div><h1>Dashboard</h1><p>Giám sát lớp học theo thời gian thực</p></div><div class="userbox"><div id="topStatus" class="live status-pending">ĐANG KIỂM TRA</div></div></header>
+<div class="dashboard-grid">
+<section class="panel chart-panel">
+  <div class="panel-title"><b>Biểu đồ cảm biến theo thời gian thực</b></div>
+  <div class="chart-legend" aria-label="Chú thích ba đường cảm biến">
+    <span class="chart-series legend-temp">Nhiệt độ (°C)</span>
+    <span class="chart-series legend-hum">Độ ẩm (%)</span>
+    <span class="chart-series legend-light">Ánh sáng (lux)</span>
+  </div>
+  <!-- [HOC-CODE] Canvas này được renderChart() sử dụng để vẽ 3 đường cảm biến. -->
+  <div class="chart"><canvas id="chart" role="img" aria-label="Biểu đồ ba đường theo thời gian: nhiệt độ °C và độ ẩm % theo trục bên trái, ánh sáng lux theo trục bên phải"></canvas></div>
+  <div class="chart-foot"><span id="updatedTime">Chưa có dữ liệu</span></div>
+</section>
+<section class="panel sensor-panel">
+  <div class="panel-title"><b>Giá trị cảm biến hiện tại</b></div>
+  <div class="sensor-stats">
+    <div class="reading"><span>Nhiệt độ</span><strong class="red"><span id="temp">--</span> °C</strong></div>
+    <div class="reading"><span>Độ ẩm</span><strong class="blue"><span id="hum">--</span> %</strong></div>
+    <div class="reading"><span>Ánh sáng</span><strong class="yellow"><span id="light">--</span> lux</strong></div>
+  </div>
+</section>
+<section class="panel device-panel">
+  <div class="panel-title"><b>Điều khiển LED</b></div>
+  <div class="controls">
+    <!-- [HOC-CODE] Nút BẬT/TẮT gọi setDevice(id, ON/OFF) trong dashboard.js; LED 2 và 3 tương tự. -->
+    <div class="device"><div class="device-info"><b>LED 1</b><small id="deviceState1">Chưa kết nối</small></div><div class="control-buttons"><button type="button" data-device="1" data-command="ON" onclick="setDevice(1,'ON')">BẬT</button><button type="button" data-device="1" data-command="OFF" onclick="setDevice(1,'OFF')">TẮT</button></div></div>
+    <div class="device"><div class="device-info"><b>LED 2</b><small id="deviceState2">Chưa kết nối</small></div><div class="control-buttons"><button type="button" data-device="2" data-command="ON" onclick="setDevice(2,'ON')">BẬT</button><button type="button" data-device="2" data-command="OFF" onclick="setDevice(2,'OFF')">TẮT</button></div></div>
+    <div class="device"><div class="device-info"><b>LED 3</b><small id="deviceState3">Chưa kết nối</small></div><div class="control-buttons"><button type="button" data-device="3" data-command="ON" onclick="setDevice(3,'ON')">BẬT</button><button type="button" data-device="3" data-command="OFF" onclick="setDevice(3,'OFF')">TẮT</button></div></div>
+  </div>
+  <div id="commandMessage" class="inline-message" role="status" aria-live="polite"></div>
+</section></div>
+</main></div>
+<script src="js/common.js"></script>
+<script src="js/dashboard.js"></script>
+</body></html>

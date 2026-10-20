@@ -1,0 +1,242 @@
+{
+  "info": {
+    "name": "IoT Classroom API",
+    "description": "IoT Classroom API. npm run demo = mô phỏng; npm start = mạch thật qua MQTT. Broker mặc định mqtt://192.168.137.1:1884. Điều khiển độc lập LED 1(D5), LED 2(D6), LED 3(D7).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ],
+  "item": [
+    {
+      "name": "System Status",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/system",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "system"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Latest Reading",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/sensors/latest",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "sensors",
+            "latest"
+          ]
+        }
+      }
+    },
+    {
+      "name": "All Sensor Readings",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/sensors",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "sensors"
+          ]
+        }
+      }
+    },
+    {
+      "name": "LED Action History",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/actions",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "actions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Turn LED 1 ON",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/device/control",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "device",
+            "control"
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"deviceId\": 1, \"command\": \"ON\"}"
+        }
+      }
+    },
+    {
+      "name": "Turn LED 1 OFF",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/device/control",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "device",
+            "control"
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"deviceId\": 1, \"command\": \"OFF\"}"
+        }
+      }
+    },
+    {
+      "name": "Turn LED 2 ON",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/device/control",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "device",
+            "control"
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"deviceId\": 2, \"command\": \"ON\"}"
+        }
+      }
+    },
+    {
+      "name": "Turn LED 2 OFF",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/device/control",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "device",
+            "control"
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"deviceId\": 2, \"command\": \"OFF\"}"
+        }
+      }
+    },
+    {
+      "name": "Turn LED 3 ON",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/device/control",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "device",
+            "control"
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"deviceId\": 3, \"command\": \"ON\"}"
+        }
+      }
+    },
+    {
+      "name": "Turn LED 3 OFF",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/device/control",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "device",
+            "control"
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"deviceId\": 3, \"command\": \"OFF\"}"
+        }
+      }
+    }
+  ]
+}

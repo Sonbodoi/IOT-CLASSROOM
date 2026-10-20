@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lịch sử hoạt động | Giám sát lớp học</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+        <div class="brand">
+          <div class="brand-mark">⌁</div>
+          <div>Giám sát lớp học</div>
+        </div>
+        <div class="side-caption">ĐIỀU HƯỚNG</div>
+        <nav class="nav">
+          <a href="index.html"><span>▦</span> Dashboard</a>
+          <a href="sensor-data.html"><span>▤</span> Dữ liệu cảm biến</a>
+          <a class="active" aria-current="page" href="action-history.html"><span>◷</span> Lịch sử hoạt động</a>
+          <a href="profile.html"><span>♙</span> Hồ sơ cá nhân</a>
+        </nav>
+        <div class="side-foot">
+          <div id="sideStatus" class="online">Đang kiểm tra kết nối...</div><button class="logout" type="button" onclick="logout()">↪ Đăng xuất</button>
+        </div>
+      </aside>
+<main class="main ">
+<header class="page-head"><div><h1>Lịch sử hoạt động</h1><p>Xem và tìm kiếm lịch sử điều khiển LED</p></div><div class="userbox"><div id="topStatus" class="live status-pending">ĐANG KIỂM TRA</div></div></header>
+<!-- [HOC-CODE] Form lọc lịch sử: actions.js bắt submit rồi gọi filterActions(). -->
+<form id="actionFilter" class="filter-panel filter-actions">
+<div class="filter-field"><label for="actionDevice">LED</label><select id="actionDevice" class="input"><option value="all">Tất cả LED</option><option value="1">LED 1</option><option value="2">LED 2</option><option value="3">LED 3</option></select></div>
+<div class="filter-field"><label for="actionCommand">HÀNH ĐỘNG</label><select id="actionCommand" class="input"><option value="all">Tất cả hành động</option><option value="ON">BẬT</option><option value="OFF">TẮT</option></select></div>
+<div class="filter-field"><label for="actionStatus">TRẠNG THÁI</label><select id="actionStatus" class="input"><option value="all">Tất cả trạng thái</option><option value="SUCCESS">Thành công</option><option value="PENDING">Đang xử lý</option><option value="FAILED">Thất bại</option></select></div>
+<div class="filter-field filter-date"><label for="actionDate">THỜI GIAN</label><input id="actionDate" class="input" type="search" placeholder="Ngày hoặc giờ"></div>
+<button type="submit" class="btn-action">Tìm kiếm</button><button type="button" id="resetActions" class="btn-plain">Đặt lại</button>
+</form>
+<!-- [HOC-CODE] Bảng lịch sử: drawActionTable() tạo các hàng trong actionRows. -->
+<section class="panel table-panel"><div class="table-scroll"><table class="table"><thead><tr><th>ID</th><th>LED</th><th>HÀNH ĐỘNG</th><th>TRẠNG THÁI</th><th>THỜI GIAN</th><th>NGƯỜI THỰC HIỆN</th></tr></thead><tbody id="actionRows"></tbody></table></div>
+<div class="table-footer"><span id="actionSummary">Đang tải...</span><div class="pager"><label for="actionPageSize">Số dòng</label><select id="actionPageSize" class="input small-input"><option value="5">5</option><option value="10" selected>10</option><option value="20">20</option></select><button id="actionPrev" class="page-btn">‹</button><div id="actionPageNumbers" class="page-numbers"></div><button id="actionNext" class="page-btn">›</button></div></div>
+</section>
+</main></div>
+<script src="js/common.js"></script>
+<script src="js/actions.js"></script>
+</body></html>

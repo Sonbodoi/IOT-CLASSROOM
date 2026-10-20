@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Đăng nhập | Giám sát lớp học</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="login">
+      <section class="login-visual">
+        <div class="brand">
+          <div class="brand-mark">⌁</div>
+          <div>Giám sát lớp học</div>
+        </div>
+        <div class="login-copy">
+          <div class="eyebrow">IOT CLASSROOM MONITORING</div>
+          <h1>Không gian học tập<br><em>thông minh hơn.</em></h1>
+          <p>Theo dõi nhiệt độ, độ ẩm và ánh sáng theo thời gian thực. Điều khiển LED trực tiếp thông qua MQTT.</p>
+        </div>
+        <div class="login-tags"><span>ESP8266</span><span>MQTT</span><span>Realtime</span><span>Node.js</span></div>
+      </section>
+      <section class="login-form-wrap">
+        <!-- [HOC-CODE] Đăng nhập minh họa: onsubmit gọi login(event) trong auth.js, chưa xác thực tài khoản trên server. -->
+        <form class="loginbox" onsubmit="login(event)">
+          <div class="brand">
+            <div class="brand-mark">⌁</div>
+            <div>IoT Classroom</div>
+          </div>
+          <h2>Đăng nhập hệ thống</h2>
+          <p>Nhập thông tin tài khoản để truy cập Dashboard.</p>
+          <label>TÊN ĐĂNG NHẬP</label>
+          <input class="input" placeholder="Nhập tên đăng nhập" required>
+          <label>MẬT KHẨU</label>
+          <input class="input" type="password" placeholder="••••••••" required>
+          <button class="btn">Đăng nhập →</button>
+          <div class="login-note">Hệ thống giám sát lớp học · PTIT</div>
+        </form>
+      </section>
+    </div>
+    <script src="js/auth.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,2427 @@
+{
+  "sensors": [
+    {
+      "id": 254,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:41.021Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 253,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:38.016Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 252,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:35.032Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 251,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:32.104Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 250,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:29.047Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 249,
+      "temperature": 32.2,
+      "humidity": 67.7,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:26.019Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 248,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:23.042Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 247,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:20.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 246,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:17.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 245,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:14.025Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 244,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:11.050Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 243,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:08.016Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 242,
+      "temperature": 32.3,
+      "humidity": 67.7,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:05.020Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 241,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:27:02.018Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 240,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:59.080Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 239,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:56.051Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 238,
+      "temperature": 32.2,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:53.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 237,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:50.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 236,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:47.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 235,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:44.032Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 234,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:41.020Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 233,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:38.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 232,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:35.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 231,
+      "temperature": 32.2,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:32.026Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 230,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:29.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 229,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:26.021Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 228,
+      "temperature": 32.2,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:23.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 227,
+      "temperature": 32.2,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:20.027Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 226,
+      "temperature": 32.2,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:17.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 225,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:14.025Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 224,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:11.021Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 223,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:08.067Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 222,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:05.043Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 221,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:26:02.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 220,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:59.034Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 219,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:56.037Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 218,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:53.033Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 217,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:50.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 216,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:47.053Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 215,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:44.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 214,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:41.025Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 213,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:38.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 212,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:35.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 211,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:32.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 210,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:29.021Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 209,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:26.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 208,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:23.104Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 207,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:20.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 206,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:17.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 205,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:14.030Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 204,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:11.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 203,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:08.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 202,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:05.054Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 201,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:25:02.059Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 200,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:59.020Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 199,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:56.021Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 198,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:53.025Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 197,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:50.026Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 196,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:47.055Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 195,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:44.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 194,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:41.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 193,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:38.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 192,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:35.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 191,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:32.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 190,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:29.025Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 189,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:26.021Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 188,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:23.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 187,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:20.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 186,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:17.026Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 185,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:14.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 184,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:11.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 183,
+      "temperature": 32.2,
+      "humidity": 67.5,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:08.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 182,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:05.036Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 181,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:24:02.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 180,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:59.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 179,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:56.027Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 178,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:53.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 177,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:50.041Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 176,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:47.026Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 175,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:44.020Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 174,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:41.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 173,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:38.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 172,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:35.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 171,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:32.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 170,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:29.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 169,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:26.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 168,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:23.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 167,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:20.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 166,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:17.022Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 165,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:14.024Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 164,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:11.030Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 163,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:08.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 162,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:05.023Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 161,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:23:02.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 160,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:59.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 159,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:56.027Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 158,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:53.026Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 157,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:50.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 156,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:47.030Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 155,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:44.026Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 154,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:41.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 153,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:38.030Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 152,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:35.028Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 151,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:32.048Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 150,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:29.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 149,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:26.064Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 148,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:23.063Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 147,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:20.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 146,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:17.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 145,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:14.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 144,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:11.030Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 143,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:08.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 142,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:05.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 141,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:22:02.027Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 140,
+      "temperature": 32.4,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:59.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 139,
+      "temperature": 32.4,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:56.027Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 138,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:53.055Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 137,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:50.042Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 136,
+      "temperature": 32.3,
+      "humidity": 67.6,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:47.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 135,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:44.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 134,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:41.054Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 133,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:38.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 132,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:35.027Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 131,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:32.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 130,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:29.029Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 129,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:26.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 128,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:23.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 127,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:20.043Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 126,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:17.048Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 125,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:14.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 124,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:11.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 123,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:08.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 122,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:05.031Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 121,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:21:02.032Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 120,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:59.055Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 119,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:56.033Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 118,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:53.102Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 117,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:50.043Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 116,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:47.037Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 115,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:44.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 114,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:41.047Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 113,
+      "temperature": 32.4,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:38.100Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 112,
+      "temperature": 32.4,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:35.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 111,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:32.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 110,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:29.036Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 109,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:26.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 108,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:23.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 107,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:20.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 106,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:17.036Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 105,
+      "temperature": 32.3,
+      "humidity": 67.2,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:14.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 104,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:11.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 103,
+      "temperature": 32.3,
+      "humidity": 67.2,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:08.079Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 102,
+      "temperature": 32.3,
+      "humidity": 67.2,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:05.081Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 101,
+      "temperature": 32.4,
+      "humidity": 67.2,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:20:02.061Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 100,
+      "temperature": 32.4,
+      "humidity": 67.2,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:59.034Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 99,
+      "temperature": 32.3,
+      "humidity": 67.2,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:56.032Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 98,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:53.032Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 97,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:50.043Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 96,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:47.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 95,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 21.3,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:44.033Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 94,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 17.4,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:41.033Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 93,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:38.042Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 92,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 14.2,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:35.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 91,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:32.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 90,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 23.2,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:29.034Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 89,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 23.2,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:26.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 88,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:23.037Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 87,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:20.041Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 86,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:17.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 85,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:14.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 84,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:11.037Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 83,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:08.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 82,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:05.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 81,
+      "temperature": 32.4,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:19:02.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 80,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:59.041Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 79,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:56.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 78,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:53.093Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 77,
+      "temperature": 32.4,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:50.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 76,
+      "temperature": 32.4,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:47.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 75,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:44.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 74,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:41.034Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 73,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:38.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 72,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:35.036Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 71,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:32.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 70,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:29.035Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 69,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:26.050Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 68,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:23.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 67,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:20.041Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 66,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:17.042Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 65,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:14.041Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 64,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:11.037Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 63,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:08.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 62,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:05.039Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 61,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:18:02.038Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 60,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:59.042Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 59,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:56.051Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 58,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:53.045Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 57,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:50.042Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 56,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:47.059Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 55,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:44.070Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 54,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:41.123Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 53,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:38.045Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 52,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:35.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 51,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:32.045Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 50,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:29.048Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 49,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:26.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 48,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:23.055Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 47,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:20.073Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 46,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:17.081Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 45,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:14.046Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 44,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:11.053Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 43,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:08.061Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 42,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:05.051Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 41,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:17:02.052Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 40,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:59.047Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 39,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:56.044Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 38,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:53.040Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 37,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:50.045Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 36,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:47.043Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 35,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:44.051Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 34,
+      "temperature": 32.4,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:41.045Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 33,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:38.043Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 32,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:35.107Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 31,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:32.113Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 30,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:29.138Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 29,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:26.091Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 28,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:23.096Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 27,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:20.048Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 26,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:17.045Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 25,
+      "temperature": 32.3,
+      "humidity": 67.3,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:14.063Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 24,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:11.099Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 23,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 21.3,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:08.051Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 22,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:05.064Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 21,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:16:02.090Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 20,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 18.1,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:59.054Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 19,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:56.056Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 18,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 218.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:53.082Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 17,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 244.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:50.058Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 16,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 165.8,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:47.048Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 15,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 181.9,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:44.080Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 14,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 191.6,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:41.105Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 13,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 205.2,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:38.050Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 12,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 202.6,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:35.060Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 11,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 233.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:32.090Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 10,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 236.8,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:29.050Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 9,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:26.153Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 8,
+      "temperature": 32.2,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:23.079Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 7,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:20.052Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 6,
+      "temperature": 32.3,
+      "humidity": 67.4,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:17.048Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 5,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:14.067Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 4,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:13.388Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 3,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 9.7,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:08.247Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 2,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:05.062Z",
+      "source": "ESP8266"
+    },
+    {
+      "id": 1,
+      "temperature": 32.3,
+      "humidity": 67.5,
+      "light": 13.5,
+      "lightUnit": "lux",
+      "time": "2026-10-20T13:15:02.091Z",
+      "source": "ESP8266"
+    }
+  ],
+  "actions": [
+    {
+      "id": 12,
+      "deviceId": 3,
+      "device": "LED 3",
+      "command": "OFF",
+      "action": "TẮT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:19:44.478Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 11,
+      "deviceId": 3,
+      "device": "LED 3",
+      "command": "ON",
+      "action": "BẬT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:19:40.752Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 10,
+      "deviceId": 2,
+      "device": "LED 2",
+      "command": "OFF",
+      "action": "TẮT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:19:37.547Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 9,
+      "deviceId": 2,
+      "device": "LED 2",
+      "command": "ON",
+      "action": "BẬT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:19:33.226Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 8,
+      "deviceId": 1,
+      "device": "LED 1",
+      "command": "OFF",
+      "action": "TẮT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:19:29.333Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 7,
+      "deviceId": 1,
+      "device": "LED 1",
+      "command": "ON",
+      "action": "BẬT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:19:24.929Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 6,
+      "deviceId": 3,
+      "device": "LED 3",
+      "command": "OFF",
+      "action": "TẮT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:16:08.347Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 5,
+      "deviceId": 3,
+      "device": "LED 3",
+      "command": "ON",
+      "action": "BẬT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:16:06.184Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 4,
+      "deviceId": 2,
+      "device": "LED 2",
+      "command": "OFF",
+      "action": "TẮT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:16:04.567Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 3,
+      "deviceId": 2,
+      "device": "LED 2",
+      "command": "ON",
+      "action": "BẬT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:16:02.832Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 2,
+      "deviceId": 1,
+      "device": "LED 1",
+      "command": "OFF",
+      "action": "TẮT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:16:01.127Z",
+      "mode": "REAL"
+    },
+    {
+      "id": 1,
+      "deviceId": 1,
+      "device": "LED 1",
+      "command": "ON",
+      "action": "BẬT",
+      "status": "SUCCESS",
+      "user": "Lê Hồng Sơn",
+      "time": "2026-10-20T13:15:56.601Z",
+      "mode": "REAL"
+    }
+  ],
+  "nextSensorId": 255,
+  "nextActionId": 13,
+  "demoSampleVersion": 0
+}

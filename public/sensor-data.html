@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dữ liệu cảm biến | Giám sát lớp học</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+        <div class="brand">
+          <div class="brand-mark">⌁</div>
+          <div>Giám sát lớp học</div>
+        </div>
+        <div class="side-caption">ĐIỀU HƯỚNG</div>
+        <nav class="nav">
+          <a href="index.html"><span>▦</span> Dashboard</a>
+          <a class="active" aria-current="page" href="sensor-data.html"><span>▤</span> Dữ liệu cảm biến</a>
+          <a href="action-history.html"><span>◷</span> Lịch sử hoạt động</a>
+          <a href="profile.html"><span>♙</span> Hồ sơ cá nhân</a>
+        </nav>
+        <div class="side-foot">
+          <div id="sideStatus" class="online">Đang kiểm tra kết nối...</div><button class="logout" type="button" onclick="logout()">↪ Đăng xuất</button>
+        </div>
+      </aside>
+<main class="main ">
+<header class="page-head"><div><h1>Dữ liệu cảm biến</h1><p>Tìm kiếm và xem dữ liệu cảm biến</p></div><div class="userbox"><div id="topStatus" class="live status-pending">ĐANG KIỂM TRA</div></div></header>
+<!-- [HOC-CODE] Chọn tiêu chí tìm kiếm: tất cả/3 loại cảm biến/giá trị/thời gian.
+     data.js bắt sự kiện submit, so khớp đúng với tiêu chí và cập nhật bảng. -->
+<form id="sensorFilter" class="filter-panel">
+<div class="filter-field filter-type-field"><select id="sensorType" class="input" aria-label="Chọn tiêu chí tìm kiếm"><option value="all">Tất cả cảm biến</option><option value="temperature">Nhiệt độ</option><option value="humidity">Độ ẩm</option><option value="light">Ánh sáng</option><option value="time">Thời gian</option><option value="value">Giá trị</option></select></div>
+<div class="filter-field"><label for="sensorValue">TÌM KIẾM THEO</label><input id="sensorValue" type="search" class="input" autocomplete="off"></div>
+
+<button type="submit" class="btn-action">Tìm kiếm</button><button type="button" class="btn-plain" id="resetSensors">Đặt lại</button>
+</form>
+<!-- [HOC-CODE] Bảng: <tbody id=sensorRows> là nơi drawSensorTable() đổ các hàng lên. -->
+<section class="panel table-panel"><div class="table-scroll"><table class="table"><thead><tr><th>ID</th><th>LOẠI CẢM BIẾN</th><th>GIÁ TRỊ</th><th>THỜI GIAN</th></tr></thead><tbody id="sensorRows"></tbody></table></div>
+<div class="table-footer"><span id="sensorSummary">Đang tải...</span><div class="pager"><label for="sensorPageSize">Số dòng</label><select id="sensorPageSize" class="input small-input"><option value="5">5</option><option value="10" selected>10</option><option value="20">20</option></select><button id="sensorPrev" class="page-btn">‹</button><div id="sensorPageNumbers" class="page-numbers"></div><button id="sensorNext" class="page-btn">›</button></div></div>
+</section>
+</main></div>
+<script src="js/common.js"></script>
+<script src="js/data.js"></script>
+</body></html>

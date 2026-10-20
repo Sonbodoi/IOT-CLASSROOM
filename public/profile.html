@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hồ sơ cá nhân | Giám sát lớp học</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+        <div class="brand">
+          <div class="brand-mark">⌁</div>
+          <div>Giám sát lớp học</div>
+        </div>
+        <div class="side-caption">ĐIỀU HƯỚNG</div>
+        <!-- [HOC-CODE] Menu dùng chung: common.js tự xác định mục đang mở. -->
+        <nav class="nav">
+          <a href="index.html"><span>▦</span> Dashboard</a>
+          <a href="sensor-data.html"><span>▤</span> Dữ liệu cảm biến</a>
+          <a href="action-history.html"><span>◷</span> Lịch sử hoạt động</a>
+          <a class="active" aria-current="page" href="profile.html"><span>♙</span> Hồ sơ cá nhân</a>
+        </nav>
+        <div class="side-foot">
+          <div id="sideStatus" class="online">Đang kiểm tra kết nối...</div><button class="logout" type="button" onclick="logout()">↪ Đăng xuất</button>
+        </div>
+      </aside>
+<main class="main profile">
+<header class="page-head"><div><h1>Hồ sơ cá nhân</h1><p>Thông tin cá nhân và tài nguyên dự án</p></div><div class="userbox"><div id="topStatus" class="live status-pending">ĐANG KIỂM TRA</div></div></header>
+<div class="profile-grid sample-profile">
+<section class="panel profile-person"><div class="profile-portrait">♙</div><h2>Lê Hồng Sơn</h2><strong>B23DCAT260</strong><p>IoT Monitoring System</p></section>
+<section class="panel profile-resources"><h2>Liên kết dự án</h2>
+<div class="resource-list">
+<div class="resource-card resource-unset"><span class="resource-icon">PDF</span><span><b>Báo cáo PDF</b><small>Chưa có liên kết</small></span></div>
+<a class="resource-card" href="resources/iot-classroom.postman_collection.json" download><span class="resource-icon">API</span><span><b>Postman</b><small>API Collection</small></span><span class="resource-go">↗</span></a>
+<div class="resource-card resource-unset"><span class="resource-icon">FIG</span><span><b>Figma</b><small>Chưa có liên kết</small></span></div>
+<div class="resource-card resource-unset"><span class="resource-icon">GH</span><span><b>GitHub</b><small>Chưa có liên kết</small></span></div>
+</div></section></div>
+</main></div>
+<script src="js/common.js"></script>
+<script src="js/profile.js"></script>
+</body></html>
